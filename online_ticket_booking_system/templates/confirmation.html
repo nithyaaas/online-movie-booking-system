@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Booking Confirmation</h1>
+        <p class="success">Thank you, {{ name }}. Your ticket for {{ movie }} at {{ time }} has been booked!</p>
+    </div>
+    <footer style="position: fixed; bottom: 0; width: 100%; text-align: center; padding: 5px; background-color: #f4f4f4; color: #555; font-size: 0.8em;">
+        Developed by Nithya S (1JT21CS069)
+    </footer>
+</body>
+</html>

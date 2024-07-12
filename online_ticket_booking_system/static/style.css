@@ -1,0 +1,81 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1dccbe;
+    color: #555;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230706/pngtree-solitary-cinema-seat-placed-on-a-red-carpet-symbolizing-the-purchase-image_3788652.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ensures the body takes up the full viewport height */
+}
+
+.container {
+    max-width: 600px; /* Adjust as needed */
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #f4f4f4;
+    color: #555;
+    font-size: 0.8em;
+}
